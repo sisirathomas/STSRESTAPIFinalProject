@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.RestApiApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 22.522 s <<< FAILURE! - in com.example.demo.RestApiApplicationTests
+test1uploadTestWhenKeyIsGivenMD5(com.example.demo.RestApiApplicationTests)  Time elapsed: 3.894 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.example.demo.RestApiApplicationTests.test1uploadTestWhenKeyIsGivenMD5(RestApiApplicationTests.java:29)
+
+test2uploadTestWhenKeyIsNotPresentMD5(com.example.demo.RestApiApplicationTests)  Time elapsed: 2.045 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.example.demo.RestApiApplicationTests.test2uploadTestWhenKeyIsNotPresentMD5(RestApiApplicationTests.java:41)
+
+test3uploadTestWhenKeyIsGivenSHA256(com.example.demo.RestApiApplicationTests)  Time elapsed: 2.057 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.example.demo.RestApiApplicationTests.test3uploadTestWhenKeyIsGivenSHA256(RestApiApplicationTests.java:51)
+
+test4uploadTestWhenKeyIsNotPresentSHA256(com.example.demo.RestApiApplicationTests)  Time elapsed: 2.052 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.example.demo.RestApiApplicationTests.test4uploadTestWhenKeyIsNotPresentSHA256(RestApiApplicationTests.java:64)
+
+test5downloadDataWithFileKey(com.example.demo.RestApiApplicationTests)  Time elapsed: 2.083 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.example.demo.RestApiApplicationTests.test5downloadDataWithFileKey(RestApiApplicationTests.java:71)
+
+test6downloadDataWithoutKey(com.example.demo.RestApiApplicationTests)  Time elapsed: 2.041 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.example.demo.RestApiApplicationTests.test6downloadDataWithoutKey(RestApiApplicationTests.java:82)
+
+test7removeDataWithKey(com.example.demo.RestApiApplicationTests)  Time elapsed: 2.034 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.example.demo.RestApiApplicationTests.test7removeDataWithKey(RestApiApplicationTests.java:89)
+
+test8removeDataWithoutKey(com.example.demo.RestApiApplicationTests)  Time elapsed: 2.048 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.example.demo.RestApiApplicationTests.test8removeDataWithoutKey(RestApiApplicationTests.java:99)
+
